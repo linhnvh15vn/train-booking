@@ -1,10 +1,10 @@
 import './globals.css';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
 
-import { cn } from '@/lib/utils';
 import QueryProvider from '@/components/providers/query-provider';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { cn } from '@/lib/utils';
 
 const fontSans = FontSans({
   subsets: ['latin'],
